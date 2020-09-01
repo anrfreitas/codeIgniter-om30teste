@@ -77,4 +77,10 @@ A entrega deve ser feita em um repositório público no GitHub, que deve conter:
 
 *Importante:* Não se preocupe se não conseguir entregar todos os requisitos: dê o seu melhor! :muscle:
 
-Boa sorte ! =)
+## Como rodar minha solução (localhost)
+
+- Primeiramente, criar uma pasta chamada testeOM30 e fazer o gitclone nesta pasta
+- Dar permissão de escrita para pasta upload na raiz
+- Criar uma database no Postgres chamada "om30testedb"
+- Executar o migrate pelo caminho http://localhost/testeOM30/migrate
+- Executar o link http://localhost/testeOM30 
