@@ -115,7 +115,7 @@
 										<th class="d-none">#</th>
 										<th>Nome</th>
 										<th>CPF</th>
-										<th>CNS</th>
+										<th class="d-none">CNS</th>
 										<th>Funções</th>
 									  </tr>
 									</thead>
@@ -125,7 +125,7 @@
 									    <td class="d-none"><?= $item->id ?></td>
 										<td><?= $item->nome ?></td>
 										<td><?= $item->cpf ?></td>
-										<td><?= $item->cns ?></td>
+										<td class="d-none"><?= $item->cns ?></td>
 										<td>
 											
 											<div style="display: flex;">
