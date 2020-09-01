@@ -204,6 +204,9 @@
 					<button type="submit" onclick="salvarPaciente()" class="btn btn-primary btn-sm">
 						<i class="fa fa-dot-circle-o"></i> Salvar
 					</button>
+					<button type="submit" onclick="location.href='pacientes'" class="btn btn-success btn-sm">
+						<i class="fa fa-dot-circle-o"></i> Voltar
+					</button>
 				</div>
 			</section>
 		</div>
