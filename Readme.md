@@ -84,3 +84,7 @@ A entrega deve ser feita em um repositório público no GitHub, que deve conter:
 - Criar uma database no Postgres chamada "om30testedb"
 - Executar o migrate pelo caminho http://localhost/testeOM30/migrate
 - Executar o link http://localhost/testeOM30 
+
+## Como executar mecanismo do ViaCEP?
+
+- Basta digitar o cep e mudar para qualquer campo, automaticamente ele irá buscar pelo endereço daquele cep. Caso não encontrar, o preenchimento não será feito!
