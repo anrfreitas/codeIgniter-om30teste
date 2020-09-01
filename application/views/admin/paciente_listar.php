@@ -131,9 +131,9 @@
 											<div style="display: flex;">
 												<form action="paciente_editar" method="post">
 													<input type="hidden" id="id" name="id" value="<?= $item->id ?>">
-													<button type="submit"><i class="menu-icon fa fa-pencil"></i></button> &nbsp;		<!-- Alterar -->
+													<button type="submit" class="btn-sm btn-warning text-dark"><i class="menu-icon fa fa-pencil"></i></button> &nbsp;		<!-- Alterar -->
 												</form>
-												<button><a href="#" onclick="removerPacienteRowId('<?= $item->id ?>')"><i class="menu-icon fa fa-trash-o"></i></a></button> &nbsp;		<!-- Remover -->
+												<a href="#" onclick="removerPacienteRowId('<?= $item->id ?>')"><button class="btn-sm btn-danger"><i class="menu-icon fa fa-trash-o"></i></button></a> &nbsp;		<!-- Remover -->
 											</div>
 											
 										</td>
