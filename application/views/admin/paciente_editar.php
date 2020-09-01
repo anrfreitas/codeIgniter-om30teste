@@ -260,6 +260,19 @@
 			}
 		}
 
+		function buscaCEP()
+		{
+			$.getJSON("https://viacep.com.br/ws/" + $("#cep").val() + "/json/", function(dados) {
+
+			if (!("erro" in dados)) {
+				$("#endereco").val(dados.logradouro + ', SEU_NUMERO - ' + dados.localidade + '/' + dados.uf);
+			} 
+			else {
+				console.log("CEP não encontrado.");
+			}
+			});
+		}
+
 		function validarCPF(cpf) {	
 			cpf = cpf.replace(/[^\d]+/g,'');	
 			if(cpf == '') return false;	
