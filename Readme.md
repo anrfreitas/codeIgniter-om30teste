@@ -1,8 +1,3 @@
-
-<p align="center">
-<img src="logo.png" alt="Logo OM30" width="200" />
-</p>
-
 # Desafio - Vaga - Pessoa Desenvolvedora FullStack PHP
 
 Olá, bem vindo ao Desafio **OM30** para a vaga Pessoa Desenvolvedora FullStack PHP!
